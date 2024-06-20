@@ -1,26 +1,59 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-.qr-code {
-    border-radius:5%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+  }
+
 .container {
     background-color: white;
-    height: 497px;
+    border-radius: 10px;
     width: 320px;
-    display:flex;
+    padding: 20px;
+    display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-p {
+    align-items: center;
     text-align: center;
-    font-size:15px;
+  }
+  
+  .container__qr-code {
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+
+.focus-text {
+color: hsl(218, 44%, 22%);
+font-weight: 700;
+font-size: 1.5rem;
 }
-.Main {
-display:flex; 
-justify-content: center;
-align-items: center;
+.grey-text {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size:1.1rem;
 }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 /*
 ## Layout
 
