@@ -1,6 +1,26 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
+.qr-code {
+    border-radius:5%;
+}
+.container {
+    background-color: white;
+    height: 497px;
+    width: 320px;
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+p {
+    text-align: center;
+    font-size:15px;
+}
+.Main {
+display:flex; 
+justify-content: center;
+align-items: center;
+}
 /*
 ## Layout
 
